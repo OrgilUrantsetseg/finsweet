@@ -1,0 +1,243 @@
+@font-face {
+    font-family: "abulition";
+    src: url("Poppins");
+}
+body{
+    font-family: var("abulition");
+    margin: 0;
+}
+section{
+    font-family:'Roboto', sans-serif; ;
+}
+/*  header*/
+.main-nav{
+    display:flex;
+}
+.nav-items{
+    display:flex;
+  justify-content: end;
+}
+.nav-items li{
+    list-style: none;
+    margin: 20px;
+    align-items: end;
+}
+.items a {
+    color:#022038;
+}
+.call-to{
+    color: rgb(219, 126, 19);
+    background-color: rgb(230, 213, 183);
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+a{
+    text-decoration: none;
+}
+/*layots*/
+.row{
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+
+}
+.col-2{
+width: calc(100%/2- 40px);
+flex: 1 0;
+
+}
+.col-3{
+width: calc(100%/3- 40px);
+flex:1 0;
+}
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+h2{
+    font-size: 3rem;
+}
+h1{
+    font-size: 4rem;
+}
+/*hero-section*/
+.hero-section{
+    background-color:#DCEAF5;
+    padding: 20px;
+    margin:0;
+}
+.hero-section .col-2{
+    align-self: center;
+}
+.hero-section img{
+    width: 100 ;
+}
+.see-our{
+    background-color: orange;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+}
+.See-all{
+    color: grey;
+    padding: 10px;
+    margin: 10px;
+
+}
+/*service*/
+.service-section{
+    margin: 40px;
+}
+.service-section img{
+    width: 100%;
+    border-radius: 20px;
+}
+.service-section a{
+    color: orange;
+}
+.service-section a::after{
+    content: "\2192" ;
+}
+/*solution-section*/
+.solution-section{
+    background-color: #DCEAF5;
+    margin: 0;
+}
+.solution-section .col-3{
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 40px;
+}
+
+.atag{
+    border: grey groove 1px;
+    border-radius: 20px;
+    padding: 10px;
+    color: grey;
+}
+.bussiness{
+    color: orange;
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+}
+.experience{
+    margin: 40px;
+}
+.experience img{
+border-radius: 20px;
+}
+
+.strategy-section .container{
+    background-color: #DCEAF5;
+    position: relative;
+    margin: 40px;
+    padding: 40px;
+}
+.ribbon{
+    position: absolute;
+    top: -15px;
+    right: -15px;
+}
+.a-tag{
+    color: orange;
+}
+
+.vaccanies{
+    background-color: orange;
+    height: 400px;
+    color: white;
+
+}
+.vaccanies-back{
+    background-image: url(../images/experience-image.png);
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    margin: 0 0;
+}
+.vaccanies a{
+    background-color: white;
+    border-radius: 20px;
+    color: orange;
+    padding: 10px;
+}
+
+.img{
+    position: relative;
+}
+.play-video{
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+    color: white;
+    font-size: 2rem;
+
+}
+.ceo{
+    color: orange;
+    padding: 80px;
+}
+.ceo-section{
+    margin: 40px;
+}
+.image{
+    background-color: white;
+    padding: 20px;
+    border-radius: 30px;
+}
+.news-section img{
+    width: 100%;
+    border-radius: 20px;
+}
+.news-section a{
+    color: orange;
+}
+.news-section a::after{
+    content: "\2192" ;
+}
+.news-section{
+    background-color: #DCEAF5;
+}
+.news-section .col-3{
+    margin: 40px;
+}
+.footer-section{
+    background-color: #022038;
+    color: white;
+}
+.footer-section li {
+list-style: none;
+}
+.footer-section a{
+    color: white;
+ 
+}
+.image-pro{
+    width: 40px;
+    border-radius: 20px;
+}
+.experience .point{
+    color: orange;
+}
+.type{
+    background-color: white;
+    padding: 10px 10px;
+    color: grey ;
+    border-radius: 20px;
+    
+}
+.sub{
+    background-color: orange;
+    border-radius: 20px;
+    padding: 10px;
+}
+.fin-logo{
+    font-weight: 800;
+}
+.main{
+    margin: 0;
+    padding:0 10px;
+}
