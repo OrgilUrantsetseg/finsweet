@@ -27,15 +27,14 @@ ul{
 .nav-items{
     display: flex;
 }
-.items a {
-    color:#022038;
-}
 .nav-items li{
     padding: 0 1rem;
+    color: #5B5B5B;
 }
 .cta-btn{
-    color: rgb(219, 126, 19);
-    background-color: rgb(230, 213, 183);
+    background-color: #F58A07;
+    color: orange;
+
     padding: 5px 10px;
     border-radius: 20px;
 }
@@ -84,13 +83,13 @@ text{
     vertical-align:bottom ;
 }
 .see-our{
-    background-color: orange;
+    background-color: #F58A07;
     color: white;
     padding: 10px;
     margin: 10px;
     border-radius: 20px;
 }
-.See-all{
+.see-all{
     color: grey;
     padding: 10px;
     margin: 10px;
@@ -100,7 +99,7 @@ text{
     border-radius: 20px;
 }
 .service a{
-    color: orange;
+    color: #F58A07;
 }
 .service a::after{
     content: "\2192" ;
@@ -119,7 +118,7 @@ text{
 }
 /*experience section*/
 .point{
-    color: orange;
+    color: #F58A07;
 }
 /*Helping section*/
 .helping .container{
@@ -132,10 +131,10 @@ text{
     right: -15px;
 }
 .sas{
-    color: orange;
+    color: #F58A07;
 }
 .bs{
-    color: orange;
+    color: #F58A07;
     background-color: white;
     padding: 10px;
     border-radius: 20px;
@@ -148,7 +147,7 @@ text{
 }
 /*start-up section*/
 .start-up{
-    background-color: orange;
+    background-color: #F58A07;
     height: 400px;
     color: white;
     padding: 0;
@@ -165,15 +164,12 @@ text{
 .start-up a{
     background-color: white;
     border-radius: 20px;
-    color: orange;
+    color: #F58A07;
     padding: 10px;
 }
 /*blog section*/
-.play-img{
+.img{
     position: relative;
-}
-.play-icon{
-    display: inline-block;
 }
 .play-video{
     position: absolute;
@@ -181,17 +177,33 @@ text{
     left: 50px;
     color: white;
     font-size: 2rem;
+
+}
+.ceo{
+    color:#F58A07;
+    padding: 80px;
+}
+.ceo-section{
+    margin: 40px;
+}
+.image{
+    background-color: white;
+    padding: 20px;
+    border-radius: 30px;
 }
 /*news section*/
-.news img{
+.news-section img{
     width: 100%;
     border-radius: 20px;
 }
-.news a{
-    color: orange;
+.news-section a{
+    color: #F58A07;
 }
-.news a::after{
+.news-section a::after{
     content: "\2192" ;
+}
+.news-section{
+    background-color: #DCEAF5;
 }
 /*footer*/
 .footer-section{
@@ -218,7 +230,7 @@ list-style: none;
     border-radius: 20px;
 }
 .sub{
-    background-color: orange;
+    background-color:#F58A07;
     border-radius: 20px;
     padding: 10px;
 }
@@ -228,4 +240,65 @@ list-style: none;
 .main{
     margin: 0;
     padding:0 10px;
+}
+
+
+
+
+
+/*CAREERS*/
+.about-a a{
+    color: #F58A07;
+}
+.about-a img{
+    max-width: 100%;
+}
+.position-ul{
+    align-items: space-between;
+}
+/*ABOUT*/
+
+/*Positions section*/
+.positions-text li{
+    border-radius: 20px;
+    padding: 5px;
+}
+
+
+/*Service*/
+.service-img img{
+    width: 100%;
+}
+
+
+/*Blog*/
+.blog-photo{
+    width: 100%;
+}
+.white{
+    background-color: white;
+}
+
+
+/*Contact Us*/
+.contact-text{
+    background-color: #e9e5e5f1;
+    color: #5B5B5B;
+    padding: 5px;
+    border-radius: 20px;
+    margin: 10px;
+}
+.cu-photo img{
+    width: 100%;
+}
+.sub{
+    background-color: #F58A07;
+    color: white;
+}
+
+
+
+.figma img{
+    max-width: 1280px;
+
 }
